@@ -1,18 +1,24 @@
 #include <iostream>
 #include <string>
 
-class Base {
-public:
-    virtual std::string getName() const { return "Base"; }
-};
+using namespace std;
+template <typename T>
 
-class Derived: public Base {
-public:
-    virtual std::string getName() const { return "Derived"; }
-};
+// class Bruh {
+// public:
+//     Bruh() {}
+//     T lmao(T lmao) {
+//         return lmao;
+//     }
+// };
+
+T add(T a, T b) {
+        return a + b;
+}
 
 int main() {
-    Derived derived {};
-    Base& rBase{ derived };
-    std::cout << "rBase is a " << rBase.getName(); // rBase is a Base
+    int a = 2, b = 4;
+    string c = "hello", d = " world";
+    cout << add(a, b);
+    cout << add(c, d);
 }
