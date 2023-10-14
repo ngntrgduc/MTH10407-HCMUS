@@ -1,4 +1,4 @@
 *.exe
 .vscode/
 tempCode*
-test*
+test*.cpp
