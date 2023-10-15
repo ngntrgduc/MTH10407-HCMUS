@@ -1,4 +1,3 @@
-// Thay check mail cua em voi a, 21110269@student.hcmus.edu.vn a.
 #include <iostream>
 #include <string>
 #include <vector>
